@@ -1,0 +1,17 @@
+{
+  "env": "prod",
+  "auth": {
+    "jwt_secret": "IYwG4605nHtMAh37DDh076AHyT2bM^3*Hi57dVrdh^bsAwZ&d11d11YcUl**3NVx",
+    "password_salt": "*KBJ3Z0U4lwV"
+  },
+  "api": {
+    "cors_origins": ["http://localhost:5051"]
+  },
+  "db": {
+    "uri": "${app_mongodb_url}"
+  },
+  "server": {
+    "host": "shakeonit.app",
+    "ssl_enabled": true
+  }
+}

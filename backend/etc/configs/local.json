@@ -1,0 +1,17 @@
+{
+  "auth": {
+    "jwt_secret": "${auth_jwt_secret}",
+    "password_salt": "${auth_password_salt}"
+  },
+  "api": {
+    "cors_origins": ["http://localhost:3000", "http://localhost:5051"],
+    "request_timeout_secs": 120
+  },
+  "db": {
+    "uri": "${app_mongodb_url}"
+  },
+  "server": {
+    "host": "localhost",
+    "port": 5050
+  }
+}
